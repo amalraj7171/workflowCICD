@@ -19,7 +19,7 @@ services:
     volumes:
       - /home/ec2-user/wordback:/var/www/html
     ports:
-      - "80:80"
+      - "2375:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
