@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the stack
-        run:  git clone https://github.com/amalraj7171/workflowCICD.git && cd /home/ec2-user/actions-runner/_work/workflowCICD/workflowCICD && docker-compose up -d
+        run:  git clone https://github.com/amalraj7171/workflowCICD.git && cd /home/ec2-user/actions-runner/_work/Demo/Demo && docker-compose up -d
